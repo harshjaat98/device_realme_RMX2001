@@ -161,3 +161,7 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone3/temp
 TW_Y_OFFSET := 60
 TW_H_OFFSET := -80
+
+# Device codename
+# Default (if not set): N/A
+SHRP_DEVICE_CODE := RMX2001
