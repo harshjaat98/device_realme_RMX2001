@@ -165,3 +165,8 @@ TW_H_OFFSET := -80
 # Device codename
 # Default (if not set): N/A
 SHRP_DEVICE_CODE := RMX2001
+
+# Maintainer name
+# Default (if not set): N/A
+SHRP_MAINTAINER := @Alex9329
+
