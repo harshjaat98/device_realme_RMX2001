@@ -174,3 +174,9 @@ SHRP_MAINTAINER := @Alex9329
 # To Fix Lag
 TW_NO_HAPTICS := true
 
+# Path of your SHRP device tree
+# Replace <device-brand> with the device brand name
+# (SHRP_DEVICE_CODE will expand to the above variable so check if that is correct)
+SHRP_PATH := device/realme/$(SHRP_DEVICE_CODE)
+
+
