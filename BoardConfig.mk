@@ -148,7 +148,8 @@ TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
-TW_SCREEN_BLANK_ON_BOOT := true
+TW_SCREEN_BLANK_ON_BOOT := false
+TW_NO_SCREEN_BLANK := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
@@ -169,4 +170,7 @@ SHRP_DEVICE_CODE := RMX2001
 # Maintainer name
 # Default (if not set): N/A
 SHRP_MAINTAINER := @Alex9329
+
+# To Fix Lag
+TW_NO_HAPTICS := true
 
