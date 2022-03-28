@@ -179,4 +179,28 @@ TW_NO_HAPTICS := true
 # (SHRP_DEVICE_CODE will expand to the above variable so check if that is correct)
 SHRP_PATH := device/realme/$(SHRP_DEVICE_CODE)
 
+# Recovery Type (for "About" section only)
+# Default (if not set): N/A
+SHRP_REC_TYPE := Normal
+
+# Device Type (for "About" section only)
+# Default (if not set): N/A
+SHRP_DEVICE_TYPE := A_Only
+
+# Flashlight: (0 = disable, 1 = enable)
+# Default (if not set): 0
+SHRP_FLASH := 1
+
+# SHRP Dark mode, use this flag to have dark theme set by default
+# Default (if not set) is not using DARK mode
+# Set this variable when true ONLY (do not use "false" or similiar)
+SHRP_DARK := true
+
+
+
+
+
+
+
+
 
