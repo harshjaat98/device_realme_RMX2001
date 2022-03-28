@@ -6,11 +6,11 @@ on:
         description: 'set this to true if you wanna push to sf (all small)'
         required: false
 env:
-  MANIFEST: ""
+  MANIFEST: "https://github.com/SHRP/manifest.git -b v3_11.0"
   # Recovery Manifest URL with -b branch
   DT_LINK: "https://github.com/SHRP-Devices/device_realme_RMX2001"
   # Your Device Tree Link
-  VENDOR: ""
+  VENDOR: "realme"
   # Your Device's Vendor name as in used inside DT. Example: xiaomi, samsung, asus, etc.
   CODENAME: "RMX2001"
   # Your Device's Codename as in used inside DT." Example: nikel, phoenix, ginkgo, etc.
@@ -20,7 +20,7 @@ env:
   # Set as recoveryimage (or bootimage if no recovery partition avaiable)
   FLAVOR: "eng"
   # eng by default, change the variable if you want userdebug
-  SOURCE: "omni"
+  SOURCE: "twrp"
   # Set as omni (or twrp if using v3_11.0)
   EXTRA_CMD: ""
   # For qualcomm FDE devices put git clone https://github.com/omnirom/android_vendor_qcom_opensource_commonsys --depth=1 -b android-9.0 vendor/qcom/opensource/commonsys in EXTRA CMD
