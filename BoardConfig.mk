@@ -191,3 +191,6 @@ SHRP_DEVICE_TYPE := A_Only
 # Default (if not set) is not using DARK mode
 # Set this variable when true ONLY (do not use "false" or similiar)
 SHRP_DARK := true
+
+# SHRP Official
+SHRP_OFFICIAL := true
