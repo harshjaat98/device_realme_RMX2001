@@ -169,7 +169,7 @@ SHRP_DEVICE_CODE := RMX2001
 
 # Maintainer name
 # Default (if not set): N/A
-SHRP_MAINTAINER := @Alex9329
+SHRP_MAINTAINER := Alex9329
 
 # To Fix Lag
 TW_NO_HAPTICS := true
