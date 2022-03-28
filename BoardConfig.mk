@@ -191,8 +191,3 @@ SHRP_DEVICE_TYPE := A_Only
 # Default (if not set) is not using DARK mode
 # Set this variable when true ONLY (do not use "false" or similiar)
 SHRP_DARK := true
-
-# SHRP Express, enables on-the-fly theme patching (also persistent) + persistent lock
-# Default (if not set) is not using Express
-# Set this variable when true ONLY (do not use "false" or similiar)
-SHRP_EXPRESS := true
