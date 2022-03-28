@@ -195,12 +195,3 @@ SHRP_FLASH := 1
 # Default (if not set) is not using DARK mode
 # Set this variable when true ONLY (do not use "false" or similiar)
 SHRP_DARK := true
-
-
-
-
-
-
-
-
-
