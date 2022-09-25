@@ -45,13 +45,13 @@ jobs:
               cd ${BuildPath}/out/target/product/${CODENAME}/
               ZIP=$(echo *stable*.zip)
               curl -F document=@$ZIP "https://api.telegram.org/bot$TOKEN/sendDocument" \
-                  -F chat_id="-1001296548298" \
+                  -F chat_id="-1001526603733" \
                   -F "disable_web_page_preview=true" \
                   -F "parse_mode=html" \
                   -F caption=" <i> SHRP Recovery </i> for <b> '$VENDOR' '$CODENAME' </b> is Available for Testing Purposes Only | Build finished on <b> $(date) </b> | <i> #SHRP Recovery </i> "
               ZIP=$(echo *AddonRescue*.zip)
               curl -F document=@$ZIP "https://api.telegram.org/bot$TOKEN/sendDocument" \
-                  -F chat_id="-1001296548298" \
+                  -F chat_id="-1001526603733" \
                   -F "disable_web_page_preview=true" \
                   -F "parse_mode=html" \
                   -F caption=" <i> SHRP AddOnRescue </i> for <b> '$VENDOR' '$CODENAME' </b> | <i> #SHRP Recovery </i> "
